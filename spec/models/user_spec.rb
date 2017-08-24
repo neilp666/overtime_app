@@ -8,7 +8,7 @@ RSpec.describe User, type: :model do
                           first_name: "Jon", last_name: "Snow")
     end
 
-    it "can be created" do
+     it "can be created" do
       expect(@user).to be_valid
     end
 
